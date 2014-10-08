@@ -23,6 +23,7 @@
 		7167C66819501F7F00FD8F55 /* CountryRestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167C66719501F7F00FD8F55 /* CountryRestTests.m */; };
 		D1DE65C0FB19A10AFF57613D /* libPods-CountryRest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6406B01575BD29297C0D61 /* libPods-CountryRest.a */; };
 		E765A80C19E4CAF300B57511 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = E765A80B19E4CAF300B57511 /* NetworkController.m */; };
+		E765A80F19E4CC8000B57511 /* CountryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E765A80E19E4CC8000B57511 /* CountryController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		A382A8A5BADAFDC7FBE018DA /* Pods-CountryRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryRest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountryRest/Pods-CountryRest.release.xcconfig"; sourceTree = "<group>"; };
 		E765A80A19E4CAF300B57511 /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
 		E765A80B19E4CAF300B57511 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		E765A80D19E4CC8000B57511 /* CountryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryController.h; sourceTree = "<group>"; };
+		E765A80E19E4CC8000B57511 /* CountryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				7167C65219501F7F00FD8F55 /* CRViewController.m */,
 				E765A80A19E4CAF300B57511 /* NetworkController.h */,
 				E765A80B19E4CAF300B57511 /* NetworkController.m */,
+				E765A80D19E4CC8000B57511 /* CountryController.h */,
+				E765A80E19E4CC8000B57511 /* CountryController.m */,
 				7167C65419501F7F00FD8F55 /* Images.xcassets */,
 				7167C64319501F7F00FD8F55 /* Supporting Files */,
 			);
@@ -308,6 +313,7 @@
 			files = (
 				E765A80C19E4CAF300B57511 /* NetworkController.m in Sources */,
 				7167C64919501F7F00FD8F55 /* main.m in Sources */,
+				E765A80F19E4CC8000B57511 /* CountryController.m in Sources */,
 				7167C64D19501F7F00FD8F55 /* CRAppDelegate.m in Sources */,
 				7167C65319501F7F00FD8F55 /* CRViewController.m in Sources */,
 			);
